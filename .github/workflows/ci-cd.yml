@@ -51,4 +51,4 @@ jobs:
       - name: Deploy application
         run: |
           echo "Simulated deploy to localhost"
-          java -jar target/crossplatform-project-1.0-SNAPSHOT.jar
+          java -jar target/test-0.0.1-SNAPSHOT.jar
