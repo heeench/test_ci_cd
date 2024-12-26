@@ -54,7 +54,7 @@ jobs:
           java-version: 17
           distribution: temurin
 
-      - name: Build JAR if not present
+      - name: Build Spring Boot JAR
         run: |
           mvn clean package
 
